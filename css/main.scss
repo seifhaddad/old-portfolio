@@ -13,7 +13,7 @@ $base-line-height: 1.5;
 
 $spacing-unit:     20px;
 
-$text-color:       #111;
+$text-color:       #828282;
 $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
 
@@ -23,7 +23,6 @@ $grey-color-dark:  darken($grey-color, 25%);
 
 $on-palm:          600px;
 $on-laptop:        800px;
-
 
 
 // Using media queries with like this:
@@ -39,15 +38,14 @@ $on-laptop:        800px;
     }
 }
 
-
+body {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_6kHaIddDVxFDFhUcb53bGXQ0nPOe5Z8kFG8L4IOL6GDAWXYPpw");
+}
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
         "layout",
-        "syntax-highlighting"
+        "syntax-highlighting",
+        "main"
 ;
-
-.background{
-  size: 100px;
-}
